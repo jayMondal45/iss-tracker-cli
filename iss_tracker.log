@@ -1,0 +1,26 @@
+2025-09-17 15:17:49,021 - INFO - ISS Tracker started successfully
+2025-09-17 15:17:49,860 - INFO - ISS is 13173.83 km away (too far)
+2025-09-17 15:17:52,324 - INFO - Sunset: 12, Sunrise: 23, Current: 9, Is night: True
+2025-09-17 15:18:53,195 - INFO - ISS is 13607.89 km away (too far)
+2025-09-17 15:18:55,550 - INFO - Sunset: 12, Sunrise: 23, Current: 9, Is night: True
+2025-09-17 15:19:56,353 - INFO - ISS is 14041.66 km away (too far)
+2025-09-17 15:19:58,765 - INFO - Sunset: 12, Sunrise: 23, Current: 9, Is night: True
+2025-09-17 15:20:59,712 - INFO - ISS is 14478.50 km away (too far)
+2025-09-17 15:21:03,296 - INFO - Sunset: 12, Sunrise: 23, Current: 9, Is night: True
+2025-09-17 15:22:04,430 - INFO - ISS is 14918.37 km away (too far)
+2025-09-17 15:22:07,502 - INFO - Sunset: 12, Sunrise: 23, Current: 9, Is night: True
+2025-09-17 15:26:13,975 - INFO - ISS Tracker started successfully
+2025-09-17 15:26:17,978 - INFO - Sunset: 12:09, Sunrise: 23:52, Current: 09:56, Is night: False
+2025-09-17 15:27:22,697 - INFO - Sunset: 12:09, Sunrise: 23:52, Current: 09:57, Is night: False
+2025-09-17 15:30:04,991 - INFO - ISS Tracker started successfully
+2025-09-17 15:30:07,677 - ERROR - Unexpected error: can't compare offset-naive and offset-aware datetimes
+2025-09-17 15:33:38,087 - ERROR - Please set your email address in the .env file
+2025-09-17 15:33:38,088 - ERROR - Please set your email app password in the .env file
+2025-09-17 15:35:52,053 - INFO - ISS Tracker started successfully
+2025-09-17 15:35:54,834 - ERROR - Unexpected error (attempt 1/5): can't compare offset-naive and offset-aware datetimes
+2025-09-17 15:36:54,108 - INFO - ISS Tracker started successfully
+2025-09-17 15:36:56,915 - INFO - Sunset: 17:39, Sunrise: 05:22, Current: 15:36, Is night: False
+2025-09-17 15:38:00,558 - INFO - Sunset: 17:39, Sunrise: 05:22, Current: 15:38, Is night: False
+2025-09-17 15:38:48,981 - INFO - ISS Tracker started successfully
+2025-09-17 15:38:51,383 - INFO - Sunset: 17:39, Sunrise: 05:22, Current: 15:38, Is night: False
+2025-09-17 15:39:16,468 - INFO - Program stopped by user
