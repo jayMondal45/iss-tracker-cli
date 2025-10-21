@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISS Tracker CLI - Track the International Space Station</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="stars"></div>
+    <div class="iss-orbit">
+        <div class="iss-icon">🛰️</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="emoji">🛰️</span>
+                <span>ISS Tracker</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#screenshots">Demo</a></li>
+                    <li><a href="#setup">Setup</a></li>
+                    <li><a href="#usage">Usage</a></li>
+                    <li><a href="https://github.com/jayMondal45/iss-tracker-cli" target="_blank" class="nav-cta">GitHub</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <ul class="mobile-menu-list">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Demo</a></li>
+                <li><a href="#setup">Setup</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="https://github.com/jayMondal45/iss-tracker-cli" target="_blank">GitHub Repository</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1><span class="emoji">🛰️</span> ISS Tracker CLI</h1>
+            <p class="tagline">Track the International Space Station in real-time from your terminal</p>
+            <div class="badges">
+                <span class="badge">🐍 Python 3.x</span>
+                <span class="badge">🗺️ ASCII Visualization</span>
+                <span class="badge">🌙 Night Detection</span>
+                <span class="badge">📧 Email Alerts</span>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://github.com/jayMondal45/iss-tracker-cli" class="btn btn-primary" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+                <a href="#setup" class="btn btn-secondary">Get Started →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="section" id="features">
+        <div class="container">
+            <h2 class="section-title reveal">✨ Features</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <h3><span class="icon">🌌</span> Real-time Tracking</h3>
+                    <p>Track the ISS position in real-time using the Open Notify API. Get instant updates on latitude, longitude, and distance from your location.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3><span class="icon">🗺️</span> ASCII World Map</h3>
+                    <p>Visualize the ISS location on a beautiful ASCII-based world map directly in your terminal. See both your position and the ISS at a glance.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3><span class="icon">🌙</span> Night Detection</h3>
+                    <p>Automatic night-time detection using the Sunrise-Sunset API. Know exactly when the ISS is visible in your night sky.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3><span class="icon">📧</span> Email Notifications</h3>
+                    <p>Receive instant email alerts when the ISS passes overhead at night. Never miss a spectacular viewing opportunity!</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3><span class="icon">📏</span> Distance Calculator</h3>
+                    <p>Calculate the exact distance between your location and the ISS. Get directional information (North, South, East, West).</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3><span class="icon">📝</span> Detailed Logging</h3>
+                    <p>Comprehensive logging system tracks all ISS passes, email notifications, and errors for debugging and analysis.</p>
+                </div>
+            </div>
+
+            <h3 id="screenshots" style="font-size: clamp(1.8rem, 4vw, 2.5rem); margin-top: clamp(60px, 8vw, 80px); margin-bottom: clamp(30px, 5vw, 50px); text-align: center; color: #e2e8f0; font-weight: 700;">📸 Demo</h3>
+            <div class="screenshots">
+                <div class="screenshot-card reveal">
+                    <h4>Initial Banner</h4>
+                    <div class="screenshot-content">
+<pre>_____ _____ ____ ____ _ _ ____ _ _____
+|_ _| ___/ ___| / ___|| | | | _ \| | | ____|
+  | | | |_ \___ \ \___ \| | | | |_) | | | _|
+  | | | _| ___) | ___) | |_| | __/| |___| |___
+  |_| |_| |____/ |____/ \___/|_| |_____|_____|
+
+✨ ISS TRACKER ACTIVATED ✨
+
+Monitoring your position: 22.470493, 88.307407
+Notification email: youremail@gmail.com</pre>
+                    </div>
+                </div>
+                <div class="screenshot-card reveal">
+                    <h4>Map Visualization</h4>
+                    <div class="screenshot-content">
+<pre>🌎 Your Position vs ISS Position:
+
+・・・・・・・・・・・・・・・・・・・・・・・・・・
+・・・・・・・・・・・・・・・・・・・・・・・・・・
+・・・🏠・・・・・・・・・・🛰️・・・・・・・・・・・
+
+📍 Your position: 22.47, 88.30
+🛰️ ISS position: 25.64, 90.12
+📏 Distance: 321.43 km
+🧭 Direction: North-East</pre>
+                    </div>
+                </div>
+                <div class="screenshot-card reveal">
+                    <h4>Email Notification</h4>
+                    <div class="screenshot-content">
+<pre>🌙 Night detected at your location
+🛰️ ISS is overhead!
+
+📧 Sending email notification...
+✅ Email sent successfully!
+
+Look Up! The ISS is passing overhead
+in your night sky right now! 🌟</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Setup -->
+    <div class="section setup-section" id="setup">
+        <div class="container">
+            <h2 class="section-title reveal">🚀 Quick Setup</h2>
+            <div class="steps">
+                <div class="step reveal">
+                    <h3><span class="step-number">1</span> Clone the Repository</h3>
+                    <p>Get started by cloning the project to your local machine:</p>
+                    <div class="code-block">
+<code>git clone https://github.com/jayMondal45/iss-tracker-cli.git
+cd iss-tracker-cli</code>
+                    </div>
+                </div>
+
+                <div class="step reveal">
+                    <h3><span class="step-number">2</span> Create .env File</h3>
+                    <p>Create a <strong>.env</strong> file in the project root with your configuration:</p>
+                    <div class="code-block">
+<code>MY_EMAIL=youremail@gmail.com
+EMAIL_PASSWORD=your_app_password
+MY_LAT=22.470493
+MY_LNG=88.307407
+TIMEZONE_OFFSET=5.5</code>
+                    </div>
+                    <p style="margin-top: 15px; color: #f59e0b;">⚠️ Use an App Password if using Google accounts (not your main password).</p>
+                </div>
+
+                <div class="step reveal">
+                    <h3><span class="step-number">3</span> Install Dependencies</h3>
+                    <p>Install the required Python packages:</p>
+                    <div class="code-block">
+<code>pip install -r requirements.txt</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Usage -->
+    <div class="section usage-section" id="usage">
+        <div class="container">
+            <div class="usage-content">
+                <h2 class="section-title reveal">▶️ Usage</h2>
+                <div class="step reveal">
+                    <h3><span class="step-number">▶</span> Run the Tracker</h3>
+                    <p>Execute the script to start tracking the ISS:</p>
+                    <div class="code-block">
+<code>python main.py</code>
+                    </div>
+                    <p style="margin-top: 20px; color: #94a3b8;">The program will:</p>
+                    <ul style="margin-top: 10px; margin-left: 20px; color: #94a3b8; line-height: 1.8;">
+                        <li>📍 Display your location vs ISS location on an ASCII map</li>
+                        <li>📏 Calculate the distance between you and the ISS</li>
+                        <li>🌙 Check if it's nighttime at your location</li>
+                        <li>📧 Send you an email if the ISS is within 500 km and it's night</li>
+                        <li>📝 Log all activities to <strong>iss_tracker.log</strong></li>
+                    </ul>
+                </div>
+
+                <div class="step reveal" style="margin-top: 40px;">
+                    <h3 style="font-size: clamp(1.3rem, 3vw, 1.7rem); color: #3b82f6;">💡 Pro Tips</h3>
+                    <ul style="margin-top: 15px; margin-left: 20px; color: #94a3b8; line-height: 2;">
+                        <li>🔄 Run the script on a schedule using cron (Linux/Mac) or Task Scheduler (Windows)</li>
+                        <li>🌍 Update <strong>MY_LAT</strong> and <strong>MY_LNG</strong> with your exact coordinates</li>
+                        <li>⏰ Adjust <strong>TIMEZONE_OFFSET</strong> based on your location</li>
+                        <li>📧 Check your spam folder if you don't receive notifications</li>
+                        <li>📊 Review <strong>iss_tracker.log</strong> for detailed tracking history</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <p style="margin-bottom: 20px;">Created with ❤️ using Python</p>
+            <p>
+                <a href="https://github.com/jayMondal45/iss-tracker-cli" target="_blank">GitHub Repository</a> 
+                · 
+                <a href="https://github.com/jayMondal45/iss-tracker-cli/issues" target="_blank">Report Issues</a>
+                ·
+                <a href="https://github.com/jayMondal45" target="_blank">@jayMondal45</a>
+            </p>
+            <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.6;">© 2025 ISS Tracker CLI. MIT License.</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
